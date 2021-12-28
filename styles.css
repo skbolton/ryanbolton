@@ -6,13 +6,10 @@
 }
 
 .top-nav {
+  padding-top: 4px;
   font-size: 0.9rem;
   display: flex;
   justify-content: space-around;
-}
-
-.top-nav a {
-  margin: inherit 10px;
 }
 
 .logo {
