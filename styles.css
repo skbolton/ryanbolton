@@ -3,7 +3,16 @@
   --primary-hover: #3FA9F5;
   --secondary: #E38A43;
   --contrast: #54545e;
-  /* --contrast: #C0560A; */
+}
+
+.top-nav {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-nav a {
+  margin: inherit 10px;
 }
 
 .logo {
