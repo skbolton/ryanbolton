@@ -6,6 +6,11 @@
   /* --contrast: #C0560A; */
 }
 
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
 .contrast {
   background: var(--contrast);
 }
