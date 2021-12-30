@@ -15,6 +15,10 @@
   height: 75px;
 }
 
+.cta {
+  width: 100%;
+}
+
 .contrast {
   background: var(--contrast);
 }
