@@ -57,6 +57,7 @@ footer ul li {
 }
 
 .copyright-footer {
+  text-align: center;
   background: #2B2B35;
   color: #CBE3E7;
   font-size: 0.6rem;
