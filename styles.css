@@ -20,7 +20,7 @@
 }
 
 .has-text-light {
-  color: #fff;
+  color: #CBE3E7;
 }
 
 .hero {
@@ -45,4 +45,9 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
+}
+
+.copyright-footer {
+  background: #2B2B35;
+  color: #CBE3E7;
 }
