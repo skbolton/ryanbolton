@@ -6,15 +6,12 @@
   --font-family: 'Alata', sans-serif;
 }
 
-.top-nav {
-  padding-top: 4px;
-  font-size: 0.9rem;
-  display: flex;
-  justify-content: space-around;
+.aic {
+  align-items: center;
 }
 
 .logo {
-  width: 150px;
+  /* width: 150px; */
   height: 75px;
 }
 
