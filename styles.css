@@ -35,6 +35,10 @@
   width: 100%;
 }
 
+footer p {
+  font-size: 0.9rem;
+}
+
 footer h4 {
   text-transform: uppercase;
 }
@@ -45,6 +49,7 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
+  font-size: 0.9rem;
 }
 
 .copyright-footer {
