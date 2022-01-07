@@ -6,6 +6,10 @@
   --font-family: 'Alata', sans-serif;
 }
 
+.secondary {
+  color: var(--secondary);
+}
+
 .aic {
   align-items: center;
 }
