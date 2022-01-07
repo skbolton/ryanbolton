@@ -45,6 +45,22 @@
   width: 100%;
 }
 
+#reviews-header {
+  position: relative;
+  text-align: center;
+}
+
+#reviews-header::after {
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: -12px; 
+  width: 80%; 
+  height: 2px; 
+  background: var(--secondary); 
+  content: ""
+}
+
 footer p {
   font-size: 0.9rem;
 }
