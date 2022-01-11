@@ -43,6 +43,7 @@
 
 .ryan-avatar {
   width: 100%;
+  margin-bottom: 24px;
 }
 
 #reviews-header {
@@ -86,4 +87,13 @@ footer ul li {
   padding-top: 8px;
   padding-bottom: 8px;
 
+}
+
+[class^="col-"] {
+  padding: .5rem;
+}
+
+[class^="col-"] article {
+  margin: 0px;
+  height: 100%;
 }
