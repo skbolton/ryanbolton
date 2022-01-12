@@ -32,10 +32,6 @@
   color: #CBE3E7;
 }
 
-.hero {
-  height: calc(100vh - 375px);
-}
-
 .hero img {
   height: 100%;
   width: 100%;
