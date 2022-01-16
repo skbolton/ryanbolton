@@ -6,7 +6,7 @@
   --font-family: 'Alata', sans-serif;
 }
 
-.secondary {
+.has-text-secondary {
   color: var(--secondary);
 }
 
