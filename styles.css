@@ -75,6 +75,10 @@ footer ul li {
   font-size: 0.9rem;
 }
 
+footer .footer-synergy-logo {
+  max-width: 150px;
+}
+
 .copyright-footer {
   text-align: center;
   background: #2B2B35;
