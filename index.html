@@ -16,6 +16,15 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="./flexboxgrid.min.css">
     <title>Ryan Bolton - Mortgage Expert</title>
+    <!-- Goolge analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-955435489"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-955435489');
+    </script>
   </head>
   <body>
     <nav class="container aic">
@@ -283,5 +292,23 @@ c0-3.3,2.1-7.4,4.9-7.4c0.5,0,1,0.1,1.4,0.2L421.7,68.9z"></path>
         <div><strong>© Copyright - Ryan Bolton Mortgage Specialist - All Rights Reserved</strong></div>
       </div>
     </div>
+
+    <!-- Google events and analytics -->
+    <script>
+      document.addEventListener('click', function(e) {
+        if (e.target.innerText == "Contact Me") {
+          gtag('event', 'conversion', {
+            'send_to': 'AW-955435489/_t61CJeS1ZEDEOGTy8cD'
+          });
+        }
+        if (e.target.innerText == "Apply Now") {
+          gtag('event', 'conversion', {
+            'send_to': 'AW-955435489/_IwXCIj2y5IDEOGTy8cD'
+          });
+        }
+      })
+
+  </script>
+
   </body>
 </html>
